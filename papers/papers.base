@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.startsWith("papers")
+        - file.name.endsWith("pdf")
+  - type: list
+    name: View

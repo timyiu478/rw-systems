@@ -7,7 +7,7 @@ reference: obsidian://open?vault=systems&file=papers%2Fgood-models.pdf
 
 ## Takeaways
 
-* To postulate a system is synchronous or asynchronous, we need to consider both processing speed and message delivery channel.
+* To postulate a system is synchronous or asynchronous, we need to consider both **processing speed** and message delivery channel.
 
 ---
 ## Pre-reading
