@@ -11,10 +11,12 @@
             "id": "11748614f3469416",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "papers/good-models.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "good-models"
             }
           }
         ]
@@ -168,16 +170,20 @@
   },
   "active": "11748614f3469416",
   "lastOpenFiles": [
+    "papers/consensus-in-partial-synchrony.pdf",
+    "papers/vr-revisited.pdf",
+    "papers/paxos-mad-live.pdf",
+    "papers/papers.base",
+    "notes/notes.base",
+    "papers/paper2-1.pdf",
+    "notes/What good are models and what models are good.md",
     "notes/On System Design.md",
     "papers/on-system-design-john-waldo-06.pdf",
-    "notes/What good are models and what models are good.md",
-    "papers/papers.base",
     "papers/robuestness-in-complex-systems-steven.pdf",
+    "papers/Kafka.pdf",
+    "papers/kafka-debull15.pdf",
     "papers/good-models.pdf",
-    "papers/How Complex Systems Fail.pdf",
     "notes/202601181115.md",
-    "notes/202601181114.md",
-    "attachments",
-    "notes"
+    "notes/202601181114.md"
   ]
 }
