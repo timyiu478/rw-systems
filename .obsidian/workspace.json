@@ -4,33 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "63adce8fdf6d387b",
+        "id": "6a818f298b968670",
         "type": "tabs",
         "children": [
           {
-            "id": "11748614f3469416",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "papers/unix_time_sharing_system.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "unix_time_sharing_system"
-            }
-          },
-          {
-            "id": "75a2ed44ab702e2f",
+            "id": "9071506a751a97bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Unix Time Sharing System.md",
+                "file": "notes/The tail at scale.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unix Time Sharing System"
+              "title": "The tail at scale"
+            }
+          },
+          {
+            "id": "a1f882c0b36768c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Virtual Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtual Memory"
             }
           }
         ],
@@ -183,22 +185,25 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "75a2ed44ab702e2f",
+  "active": "a1f882c0b36768c1",
   "lastOpenFiles": [
+    "notes/The tail at scale.md",
+    "notes/Virtual Memory.md",
     "papers/unix_time_sharing_system.pdf",
+    "attachments/virtual memory mmu.png",
+    "attachments/attachments",
     "notes/Unix Time Sharing System.md",
-    "papers/good-models.pdf",
-    "papers/consensus-in-partial-synchrony.pdf",
-    "papers/vr-revisited.pdf",
-    "papers/paxos-mad-live.pdf",
-    "papers/papers.base",
+    "papers/the-akamai-network-a-platform-for-high-performance-internet-applications-technical-publication.pdf",
+    "articles/p1654-wang.pdf",
+    "articles/SimonsSlice.pdf",
     "notes/notes.base",
-    "papers/paper2-1.pdf",
+    "articles/the tail at scale.pdf",
+    "papers/papers.base",
+    "papers/on-system-design-john-waldo-06.pdf",
+    "papers/paxos-mad-live.pdf",
+    "templates/{{ title }}.md",
     "notes/What good are models and what models are good.md",
     "notes/On System Design.md",
-    "papers/on-system-design-john-waldo-06.pdf",
-    "papers/robuestness-in-complex-systems-steven.pdf",
-    "papers/Kafka.pdf",
     "notes/202601181115.md",
     "notes/202601181114.md"
   ]
