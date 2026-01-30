@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RW Systems.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RW Systems"
+              "title": "index"
             }
           }
         ],
@@ -188,6 +188,8 @@
   },
   "active": "15027c574cb42c7d",
   "lastOpenFiles": [
+    "RW Systems.md",
+    "README.md",
     "LICENSE.txt",
     "content/index.md",
     "content/notes.base",
@@ -210,7 +212,6 @@
     "public/Virtual-Memory.html",
     "public/static/icon.png",
     "public/tags/distributed-systems.html",
-    "public/Unix-Time-Sharing-System.html",
     "content/Unix Time Sharing System.md",
     "content/The tail at scale.md",
     "content/What good are models and what models are good.md",
@@ -232,7 +233,6 @@
     "node_modules/glob-parent/CHANGELOG.md",
     "node_modules/debug/README.md",
     "node_modules/pretty-bytes/readme.md",
-    "node_modules/rw/README.md",
-    "node_modules/ws/README.md"
+    "node_modules/rw/README.md"
   ]
 }
