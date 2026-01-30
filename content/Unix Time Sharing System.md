@@ -2,6 +2,7 @@
 tags:
   - operating-systems
 reference: obsidian://open?vault=systems&file=papers%2Funix_time_sharing_system.pdf
+title: Unix Time Sharing System
 ---
 ## Takeaways
 

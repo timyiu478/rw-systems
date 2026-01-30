@@ -2,8 +2,10 @@
 tags:
   - operating-systems
   - memory
+title: Virtual Memory
 ---
-![](virtual%20memory%20mmu.png)
+
+![[static/virtual_memory_mmu.png]]
 
 **Q. Why MMU(Memory Management Unit)?**
 
@@ -17,6 +19,7 @@ MMU and CPU are tightly integrated hardware components. MMU uses direct hardware
 **Q. How do multiple CPUs/Cores use the one MMU**
 
 They don't literally share one single MMU. Each CPU core has its own independent MMU. If they do share a single MMU, the MMU will be a massive performance bottleneck.
+
 
 ## References
 

@@ -1,7 +1,9 @@
 {
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "notes",
-  "attachmentFolderPath": "attachments",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "quartz/static/",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "shortest"
 }

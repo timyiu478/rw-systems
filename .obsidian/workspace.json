@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/{{ title }}.md",
+                "file": "content/Virtual Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "{{ title }}"
+              "title": "Virtual Memory"
+            }
+          },
+          {
+            "id": "15027c574cb42c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RW Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RW Systems"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,29 +186,52 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "9071506a751a97bb",
+  "active": "15027c574cb42c7d",
   "lastOpenFiles": [
-    "index.md.md",
-    "metadata.json~",
-    "metadata.json",
-    "content/The tail at scale.md",
-    "content/On System Design.md",
-    "content/Unix Time Sharing System.md",
-    "content/Virtual Memory.md",
-    "content/What good are models and what models are good.md",
-    "attachments/tail at scale; hedged request and tied request.png",
-    "attachments/tail_at_scale_slow_outlier.png",
-    "papers/darpa.pdf",
-    "papers/unix_time_sharing_system.pdf",
-    "attachments/virtual memory mmu.png",
-    "attachments/attachments",
-    "papers/the-akamai-network-a-platform-for-high-performance-internet-applications-technical-publication.pdf",
-    "articles/p1654-wang.pdf",
-    "articles/SimonsSlice.pdf",
+    "content/index.md",
     "content/notes.base",
-    "articles/the tail at scale.pdf",
+    "public/index-og-image.webp",
+    "content/Virtual Memory.md",
+    "public/What-good-are-models-and-what-models-are-good-og-image.webp",
+    "public/Virtual-Memory-og-image.webp",
+    "public/Unix-Time-Sharing-System-og-image.webp",
+    "public/The-tail-at-scale-og-image.webp",
+    "public/static/virtual_memory_mmu.png",
+    "public/tags/index.html",
+    "public/static/tail_at_scale_slow_outlier.png",
+    "public/static/tail_at_scale_hedged_request_and_tied_request.png",
+    "public/postscript.js",
+    "public/index.html",
+    "public/static/og-image.png",
+    "public/prescript.js",
+    "public/What-good-are-models-and-what-models-are-good.html",
+    "public/index.css",
+    "public/Virtual-Memory.html",
+    "public/static/icon.png",
+    "public/tags/distributed-systems.html",
+    "public/Unix-Time-Sharing-System.html",
+    "content/Unix Time Sharing System.md",
+    "content/The tail at scale.md",
+    "content/What good are models and what models are good.md",
+    "content/On System Design.md",
     "templates/{{ title }}.md",
-    "notes/202601181115.md",
-    "notes/202601181114.md"
+    "node_modules/mdast-util-mdx-expression/readme.md",
+    "node_modules/character-entities-legacy/readme.md",
+    "node_modules/@esbuild/darwin-x64/README.md",
+    "node_modules/get-tsconfig/README.md",
+    "node_modules/unicorn-magic/readme.md",
+    "node_modules/mime-db/README.md",
+    "node_modules/mime-db/HISTORY.md",
+    "node_modules/buffer/README.md",
+    "node_modules/buffer/AUTHORS.md",
+    "node_modules/source-map-js/README.md",
+    "node_modules/internmap/README.md",
+    "node_modules/lightningcss/README.md",
+    "node_modules/glob-parent/README.md",
+    "node_modules/glob-parent/CHANGELOG.md",
+    "node_modules/debug/README.md",
+    "node_modules/pretty-bytes/readme.md",
+    "node_modules/rw/README.md",
+    "node_modules/ws/README.md"
   ]
 }

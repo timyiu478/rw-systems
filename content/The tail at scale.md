@@ -6,6 +6,7 @@ tags:
   - performance
 reference: obsidian://open?vault=systems&file=articles%2Fthe%20tail%20at%20scale.pdf
 description: A research article that explains why latency variability exists and how to reduce/mock latency variability using the existing capacity for fault-tolerant
+title: The tail at scale
 ---
 ## Takeaways
 
@@ -22,7 +23,7 @@ Two techniques:
 * Hedged request
 * Tied request
 
-![](tail%20at%20scale;%20hedged%20request%20and%20tied%20request.png)
+![[static/tail_at_scale_hedged_request_and_tied_request.png]]
 
 An alternative to the tied-request and hedged-request schemes is to probe remote queues first, then submit the request to the least-loaded server. Problems:
 * load levels can change between probe and request time
@@ -60,7 +61,7 @@ The response time of the system for a client request.
 A user request is divided into sub-requests, and the sub-requests fan out across hundreds or thousands of servers to parallelise the request processing.
 A single slow outlier can yield dramatic reductions in overall service performance.
 
-![](tail_at_scale_slow_outlier.png)
+![](static/tail_at_scale_slow_outlier.png)
 
 **Q. In Reducing Component Variability section, the authors mention "Keep low-level queues short so higher-level policies take effect more quickly". Why keep low-level queues short so higher-level policies take effect more quickly?**
 

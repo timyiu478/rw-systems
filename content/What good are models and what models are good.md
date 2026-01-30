@@ -3,6 +3,7 @@ tags:
   - distributed-systems
   - modeling
 reference: obsidian://open?vault=systems&file=papers%2Fgood-models.pdf
+title: What good are models and what models are good
 ---
 
 ## Takeaways
