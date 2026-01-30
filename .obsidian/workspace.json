@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/The tail at scale.md",
+                "file": "templates/{{ title }}.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The tail at scale"
+              "title": "{{ title }}"
             }
           }
         ]
@@ -167,30 +167,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "quartz-syncer:Quartz Syncer publication center": false
     }
   },
   "active": "9071506a751a97bb",
   "lastOpenFiles": [
+    "index.md.md",
+    "metadata.json~",
+    "metadata.json",
+    "content/The tail at scale.md",
+    "content/On System Design.md",
+    "content/Unix Time Sharing System.md",
+    "content/Virtual Memory.md",
+    "content/What good are models and what models are good.md",
     "attachments/tail at scale; hedged request and tied request.png",
-    "notes/The tail at scale.md",
     "attachments/tail_at_scale_slow_outlier.png",
     "papers/darpa.pdf",
-    "notes/Virtual Memory.md",
     "papers/unix_time_sharing_system.pdf",
     "attachments/virtual memory mmu.png",
     "attachments/attachments",
-    "notes/Unix Time Sharing System.md",
     "papers/the-akamai-network-a-platform-for-high-performance-internet-applications-technical-publication.pdf",
     "articles/p1654-wang.pdf",
     "articles/SimonsSlice.pdf",
-    "notes/notes.base",
+    "content/notes.base",
     "articles/the tail at scale.pdf",
-    "papers/papers.base",
-    "papers/on-system-design-john-waldo-06.pdf",
     "templates/{{ title }}.md",
-    "notes/What good are models and what models are good.md",
-    "notes/On System Design.md",
     "notes/202601181115.md",
     "notes/202601181114.md"
   ]
