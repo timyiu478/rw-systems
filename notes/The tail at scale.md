@@ -5,10 +5,28 @@ tags:
   - tail-tolerant
   - performance
 reference: obsidian://open?vault=systems&file=articles%2Fthe%20tail%20at%20scale.pdf
+description: A research article that explains why latency variability exists and how to reduce/mock latency variability using the existing capacity for fault-tolerant
 ---
 ## Takeaways
 
+* How to use **replication** to mock latency variability because of queueing delays
+	* Hedged Request & Tied Request
 
+
+---
+## Within Request Short-Term Adaptations
+
+Latency variability Cause: queueing delays on the server before a request begins execution
+
+Two techniques:
+* Hedged request
+* Tied request
+
+![](tail%20at%20scale;%20hedged%20request%20and%20tied%20request.png)
+
+An alternative to the tied-request and hedged-request schemes is to probe remote queues first, then submit the request to the least-loaded server. Problems:
+* load levels can change between probe and request time
+* clients can create temporary hot spots by all clients picking the same (least-loaded) server at the same time
 
 ---
 
@@ -28,10 +46,12 @@ The response time of the system for a client request.
 
 1. processes/systems compete the shared resources
 2. background cron job is invoked
-3. Maintenance activities: 
+3. Queuing delays:
+	1. short queue vs long queue
+4. Maintenance activities: 
 	1. disk corruption triggers the distributed file system to re-construct the data on a new disk
 	2. Garbage collection in the garbage collected programming languages
-4. Hardware:
+5. Hardware:
 	1. Energy management: inactive mode -> active mode
 
 
