@@ -1,7 +1,7 @@
 {
   "useMarkdownLinks": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "notes",
+  "newFileFolderPath": "content",
   "attachmentFolderPath": "quartz/static/",
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
