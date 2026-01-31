@@ -173,6 +173,8 @@
   },
   "active": "e14d81d561dee9aa",
   "lastOpenFiles": [
+    "wrangler.jsonc~",
+    "wrangler.jsonc",
     "templates/{{ title }}.md",
     "content/Kafka - A distributed messaging system for log processing.md",
     "papers/Kafka.pdf",
@@ -195,7 +197,6 @@
     "public/tags/operating-systems.html",
     "public/static/tail_at_scale_hedged_request_and_tied_request.png",
     "public/index.html",
-    "public/tags/performance.html",
     "public/static/og-image.png",
     "public/static/icon.png",
     "RW Systems.md",
