@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Kafka - A distributed messaging system for log processing"
             }
+          },
+          {
+            "id": "b04be19664c39e7f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "quartz/static/zero_copy.png"
+              },
+              "icon": "lucide-image",
+              "title": "zero_copy"
+            }
           }
         ]
       }
@@ -173,10 +185,11 @@
   },
   "active": "e14d81d561dee9aa",
   "lastOpenFiles": [
+    "content/Kafka - A distributed messaging system for log processing.md",
+    "quartz/static/zero_copy.png",
     "wrangler.jsonc~",
     "wrangler.jsonc",
     "templates/{{ title }}.md",
-    "content/Kafka - A distributed messaging system for log processing.md",
     "papers/Kafka.pdf",
     "content/Virtual Memory.md",
     "content/On System Design.md",
@@ -196,9 +209,7 @@
     "public/tags/memory.html",
     "public/tags/operating-systems.html",
     "public/static/tail_at_scale_hedged_request_and_tied_request.png",
-    "public/index.html",
     "public/static/og-image.png",
-    "public/static/icon.png",
     "RW Systems.md",
     "README.md",
     "content/Unix Time Sharing System.md",

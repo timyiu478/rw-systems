@@ -8,10 +8,11 @@ tags:
 reference: obsidian://open?vault=systems&file=papers%2FKafka.pdf
 title: Kafka - A distributed messaging system for log processing
 draft: true
-description:
+description: A log-based scalable messaging system
 ---
 ## Takeaways
 
+* Re-balancing
 
 ---
 
@@ -23,10 +24,48 @@ description:
 * support real-time log processing with delays no more than few seconds
 * support offline consumers such as data warehousing application
 
+### Design Choices
 
-### Design Principles
+*For efficient data transfer:*
+
+* **No Double buffering. Use Page Cache Only.** Why?
+	* Warm cache still exists after the broker process is restarted
+	* Little overhead on garbage collection in the garbage-collected language
+	* Normal operating system caching heuristics are very effective (write-through cache and read-ahead)
+		* read-ahead: OS reads the data from disk into memory before the user request
+	* Evidence: production and the consumption have **consistent** performance linear to the data size, up to many terabytes of data.
+* **Use *sendfile* OS API** / "Zero Copy"(**0 user <-> kernel copy**).
+	* source: https://dzone.com/articles/understanding-zero-copy
+
+![[static/zero_copy.png]]
 
 
+*"Stateless" Broker:*
+
+* The broker does not store information about the consumer,  e.g., how much the consumer has consumed
+* The messages/events are automatically deleted based on the retention policy
+	* Allow **re-playing** messages
+		* When? E.g. 
+			* After the fix of the application logic.
+			* Consumer crashes before persisting some necessary state
+
+*Serialization*:
+
+* Use [Avro](https://avro.apache.org/) as our serialization protocol
+	* It supports **schema evolution** and is efficient.
+		* can enforce a contract to ensure schema compatibility between data producer and consumer.
+
+*Distributed Coordination:*
+
+* A partition within a topic is the smallest unit of parallelism.
+	* => one partition is only consumed by one consumer within the consumer group => no coordination is needed for consuming a partition except re-balancing.
+	* Note that each consumer can consume more than one partition
+* How to coordinate? Use Zookeeper
+	* Usages:
+		* maintain the membership of brokers and consumers
+		* trigger re-balancing
+		* maintaining the consumption relationship and keeping track of the consumed offset of each partition
+	* How to use zookeeper: see paper section 3.2, page 4
 
 ---
 ## Q & A
@@ -36,6 +75,8 @@ description:
 Example: http://activemq.apache.org/
 
 It is a message broker. It decouples the relationships between message producer and message consumer (time, space, target - producer does not need to know who will consume the messages).
+
+It is distributed. The producer, consumer, and broker are distributed.
 
 ***Q. Kafka vs traditional systems***
 
@@ -61,6 +102,11 @@ Kafka:
 
 ***Q. Is it possible that multiple processes share/use the same producer/consumer (config)?***
 
+Yes. For example,
+* [consumer group](https://developer.confluent.io/learn-more/kafka-on-the-go/consumer-groups/)  - Processes do not share the same consumer, but they share the same stream of events. The stream of events is divided into partitions. Each consumer process handles one of the partitions. No coordination across consumer groups.
+
 ***Q. What are the assumptions about the consumer?***
 
 The consumer consumes events **sequentially** instead of randomly.
+
+***Q. Regarding schema compatibility, can the producer publish incompatible data? Why or why not?***
