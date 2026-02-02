@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a818f298b968670",
+        "id": "e1b6ae245f291079",
         "type": "tabs",
         "children": [
           {
-            "id": "e14d81d561dee9aa",
+            "id": "06516325baae032e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,15 +22,29 @@
             }
           },
           {
-            "id": "b04be19664c39e7f",
+            "id": "d8851c77616ce82c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "quartz/static/zero_copy.png"
+                "file": "papers/darpa.pdf"
               },
-              "icon": "lucide-image",
-              "title": "zero_copy"
+              "icon": "lucide-file-text",
+              "title": "darpa"
+            }
+          },
+          {
+            "id": "1bc9633b82df0172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Replicated Data Consistency Explained Through Baseball by Doug Terry"
             }
           }
         ]
@@ -183,10 +197,15 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "e14d81d561dee9aa",
+  "active": "06516325baae032e",
   "lastOpenFiles": [
+    "papers/darpa.pdf",
+    "quartz/static/kafka_figures.png",
     "content/Kafka - A distributed messaging system for log processing.md",
+    "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
+    "papers/ConsistencyAndBaseballReport.pdf",
     "quartz/static/zero_copy.png",
+    "papers/EthernetPaper.pdf",
     "wrangler.jsonc~",
     "wrangler.jsonc",
     "templates/{{ title }}.md",
@@ -205,11 +224,7 @@
     "public/tags/index.html",
     "public/static/virtual_memory_mmu.png",
     "public/static/tail_at_scale_slow_outlier.png",
-    "public/tags/modeling.html",
-    "public/tags/memory.html",
-    "public/tags/operating-systems.html",
     "public/static/tail_at_scale_hedged_request_and_tied_request.png",
-    "public/static/og-image.png",
     "RW Systems.md",
     "README.md",
     "content/Unix Time Sharing System.md",
@@ -228,7 +243,6 @@
     "node_modules/internmap/README.md",
     "node_modules/lightningcss/README.md",
     "node_modules/glob-parent/README.md",
-    "node_modules/glob-parent/CHANGELOG.md",
-    "node_modules/debug/README.md"
+    "node_modules/glob-parent/CHANGELOG.md"
   ]
 }

@@ -7,12 +7,12 @@ tags:
   - big-data
 reference: obsidian://open?vault=systems&file=papers%2FKafka.pdf
 title: Kafka - A distributed messaging system for log processing
-draft: true
+draft: false
 description: A log-based scalable messaging system
 ---
 ## Takeaways
 
-* Re-balancing
+* The design choices of Kafka
 
 ---
 
@@ -67,6 +67,12 @@ description: A log-based scalable messaging system
 		* maintaining the consumption relationship and keeping track of the consumed offset of each partition
 	* How to use zookeeper: see paper section 3.2, page 4
 
+
+### Figures
+
+![[static/kafka_figures.png]]
+
+
 ---
 ## Q & A
 
@@ -109,4 +115,13 @@ Yes. For example,
 
 The consumer consumes events **sequentially** instead of randomly.
 
-***Q. Regarding schema compatibility, can the producer publish incompatible data? Why or why not?***
+***Q. In Algorithm 1, why assign partitions from j x N to (j+1) x N - 1 in $P_T$ to consumer $C_i$?*
+
+
+---
+
+## Further Study
+
+* The re-balancing algorithm
+* Broker replication
+* Schema Registry
