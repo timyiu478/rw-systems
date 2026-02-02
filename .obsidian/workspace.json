@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "06516325baae032e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Kafka - A distributed messaging system for log processing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka - A distributed messaging system for log processing"
-            }
-          },
-          {
             "id": "d8851c77616ce82c",
             "type": "leaf",
             "state": {
@@ -47,7 +33,8 @@
               "title": "Replicated Data Consistency Explained Through Baseball by Doug Terry"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,12 +184,15 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "06516325baae032e",
+  "active": "1bc9633b82df0172",
   "lastOpenFiles": [
-    "papers/darpa.pdf",
-    "quartz/static/kafka_figures.png",
-    "content/Kafka - A distributed messaging system for log processing.md",
+    "quartz/static/out_of_order.png",
+    "quartz/static/out_of_order_read.png",
     "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
+    "content/Ethernet - Distributed Packet Switching for Local Computer Networks by Robert M. Metcalfe and David R. Boggs.md",
+    "papers/darpa.pdf",
+    "content/Kafka - A distributed messaging system for log processing.md",
+    "quartz/static/kafka_figures.png",
     "papers/ConsistencyAndBaseballReport.pdf",
     "quartz/static/zero_copy.png",
     "papers/EthernetPaper.pdf",
@@ -223,8 +213,6 @@
     "public/index.css",
     "public/tags/index.html",
     "public/static/virtual_memory_mmu.png",
-    "public/static/tail_at_scale_slow_outlier.png",
-    "public/static/tail_at_scale_hedged_request_and_tied_request.png",
     "RW Systems.md",
     "README.md",
     "content/Unix Time Sharing System.md",
@@ -242,7 +230,6 @@
     "node_modules/source-map-js/README.md",
     "node_modules/internmap/README.md",
     "node_modules/lightningcss/README.md",
-    "node_modules/glob-parent/README.md",
-    "node_modules/glob-parent/CHANGELOG.md"
+    "node_modules/glob-parent/README.md"
   ]
 }
