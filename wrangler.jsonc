@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "my-worker",
+  "name": "rw-systems",
   "compatibility_date": "2026-01-31",
   "assets": {
     "directory": "./public/"
