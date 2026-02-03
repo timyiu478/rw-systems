@@ -43,7 +43,7 @@ description: The different consistency guarantees are useful and understand how 
 * *Read My Writes*
 	* the effects of all writes that were performed by the client are visible to the client’s subsequentreads
 
-![[consistency_guarentees_baseball_example.png]]
+![[static/consistency_guarentees_baseball_example.png]]
 
 
 ---
@@ -56,7 +56,7 @@ Consistent Prefix guarantees that any read (by **any client**) observes some **p
 
 *Monotonic Reads* is a **per-client / per-session** guarantee. *Monotonic Reads* does not prevent **out-of-order** observation, especially across **multiple keys/items** or when the system doesn't enforce **global ordering**.
 
-![[out_of_order_write.png]]
+![[static/out_of_order_write.png]]
 
 ***Q. What are other systems where some of the weaker consistency guarantees are applicable?***
 
@@ -87,7 +87,7 @@ Consistent Prefix guarantees that any read (by **any client**) observes some **p
 		* umpire - only read
 			* read-my-write is not "right" consistency guarantee
 
-
+![[static/data_consistency_baseball_example.png]]
 
 ***Q. What is a consistency guarantee? What aspects of a system does it affect?***
 
