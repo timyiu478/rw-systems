@@ -9,10 +9,19 @@ draft: false
 description: what network functions should be assigned to the endpoints
 ---
 
+## Takeaways
+
+* Reminds us that the reliability guarantees from the lower layers are not sufficient
+* Why assign the function to the application at the endpoint? Because the function needs the knowledge that is only known by the application (e.g. *seqNum*, *requestId*, *sessionKey*)
+
+---
+
+## Q & A
+
 ***Q. Of all of the networking functions you've learned about, what functions belong at what layers?***
 
 * Application Later: Detecting web server crashes
-* Transport Layer Security: Secure (encryption & authentication) data tranmission
+* Transport Layer Security: Secure (encryption & authentication) data transmission
 * Transport Layer: Message FIFO Delivery, Duplicate Message Suppression, At Most Once Message Delivery(Timeout & Retry & Acknowledgement)
 * Networking Layer: Routing for end-to-end data transfer
 * Link Layer: hop-to-hop direct data transfer
@@ -51,6 +60,7 @@ End-to-end encryption:
 * E2E Encryption Messaging Apps
 * KV store: 
 	* client: retry
-		* Why retry? The server can restart after it receives a full request from TCP layer
+		* Why retry? The server can restart after it receives a full request from the TCP layer
 	* server: deduplication for append operation
-		* only the server know the client request ID
+		* Only the server know the client request ID
+		* Only the server know whether it executed the request
