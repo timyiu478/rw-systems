@@ -14,6 +14,11 @@ description: The tradeoff between latency and consistency in distributed databas
 * Why does a tradeoff between latency and consistency during normal operation arise?
 * Low-latency data replication implementation does not imply network partition tolerance.
 
+---
+
+## Summary
+
+The research article argues that when designing replicated data systems (especially over WANs), we must consider not only behavior during network partitions but also during normal operation. The fundamental implementation of data replication imposes inherent trade-offs between latency and consistency _at all times_ throughout system operation.
 
 ---
 
@@ -26,7 +31,7 @@ description: The tradeoff between latency and consistency in distributed databas
 * Multiple clients are submitting updates to the system concurrently
 
 
-![[pacelc_data_replication_implementations.png]]
+![[static/pacelc_data_replication_implementations.png]]
 Noted that (2)(b)(ii) **does not tolerate network partition**. If the master node becomes inside the minority partition, the system by default makes the data item unavailable for updates.
 	* Real system example: 
 		* PNUTS: a **PC/EL** system
