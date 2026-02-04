@@ -4,6 +4,9 @@ draft: false
 tags:
   - distributed-systems
   - operating-systems
+  - computer-network
 ---
-Reading and writing about systems.  
+Reading and writing about systems.
+
+
 
