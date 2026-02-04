@@ -115,7 +115,7 @@ Yes. For example,
 
 The consumer consumes events **sequentially** instead of randomly.
 
-***Q. In Algorithm 1, why assign partitions from j x N to (j+1) x N - 1 in $P_T$ to consumer $C_i$?*
+***Q. In Algorithm 1, why assign partitions from j x N to (j+1) x N - 1 in $P_T$ to consumer $C_i$?***
 
 
 ---
