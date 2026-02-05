@@ -14,6 +14,3 @@ These are my unpolished, personal learning notes — **not** intended as polishe
 npx quartz build --serve
 ```
 
-## Read Online
-
-
