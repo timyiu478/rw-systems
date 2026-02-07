@@ -123,5 +123,6 @@ The consumer consumes events **sequentially** instead of randomly.
 ## Further Study
 
 * The re-balancing algorithm
-* Broker replication
+* Broker replication 
+	* [[Building a Replicated Logging System with Apache Kafka]]
 * Schema Registry
