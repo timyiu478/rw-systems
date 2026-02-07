@@ -6,7 +6,8 @@ tags:
 reference: obsidian://open?vault=systems&file=papers%2Fp1654-wang.pdf
 title: Building a Replicated Logging System with Apache Kafka
 draft: false
-description:
+description: How does Kafka replicate its broker log, and why
+date: 2026-02-07
 ---
 ## A Log Consensus Protocol
 

@@ -8,6 +8,7 @@ reference: obsidian://open?vault=systems&file=articles%2Fpacelc.pdf
 title: Consistency Tradeoffs in Modern Distributed Database System Design by Daniel J. Abadi
 draft: false
 description: The tradeoff between latency and consistency in distributed database system during normal operation
+date: 2026-02-03
 ---
 ## Takeaways 
 

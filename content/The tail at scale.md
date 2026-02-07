@@ -7,6 +7,7 @@ tags:
 reference: obsidian://open?vault=systems&file=articles%2Fthe%20tail%20at%20scale.pdf
 description: A research article that explains why latency variability exists and how to reduce/mock latency variability using the existing capacity for fault-tolerant
 title: The tail at scale
+date: 2026-01-30
 ---
 ## Takeaways
 

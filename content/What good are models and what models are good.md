@@ -4,6 +4,7 @@ tags:
   - modeling
 reference: obsidian://open?vault=systems&file=papers%2Fgood-models.pdf
 title: What good are models and what models are good
+date: 2026-01-30
 ---
 
 ## Takeaways

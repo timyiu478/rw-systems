@@ -9,6 +9,7 @@ reference: obsidian://open?vault=systems&file=papers%2FKafka.pdf
 title: Kafka - A distributed messaging system for log processing
 draft: false
 description: A log-based scalable messaging system
+date: 2026-01-30
 ---
 ## Takeaways
 

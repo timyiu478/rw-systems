@@ -5,8 +5,9 @@ tags:
   - availablilty
 reference: obsidian://open?vault=systems&file=papers%2FGiant.pdf
 title: Lessons from Giant-Scale Services
-draft: true
+draft: false
 description: Lessons from Giant-Scale Services
+date: 2026-02-03
 ---
 ## Why Giant Scale Services?
 

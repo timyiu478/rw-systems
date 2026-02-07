@@ -6,6 +6,7 @@ reference: obsidian://open?vault=systems&file=papers%2FConsistencyAndBaseballRep
 title: Replicated Data Consistency Explained Through Baseball by Doug Terry
 draft: false
 description: The different consistency guarantees are useful and understand how the data is being used is useful for choosing the desired consistency guarantees
+date: 2026-02-05
 ---
 ## Takeaways
 

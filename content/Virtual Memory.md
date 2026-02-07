@@ -3,6 +3,7 @@ tags:
   - operating-systems
   - memory
 title: Virtual Memory
+date: 2026-01-30
 ---
 
 ![[static/virtual_memory_mmu.png]]
