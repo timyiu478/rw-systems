@@ -11,9 +11,12 @@ description:
 ## A Log Consensus Protocol
 
 The *primary-backup* approach:
+
 * $f+1$ replicas can tolerate $f$ node failures.
 * A leader needs to wait **all** $f$ backup acknowledgments.
+
 The *quorum* approach:
+
 * $2f+1$ replicas can tolerate $f$ node failures.
 * A leader needs to wait **any** $f$ backup acknowledgments.
 
