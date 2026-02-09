@@ -5,6 +5,7 @@ tags:
   - distributed-systems
   - operating-systems
   - computer-network
+  - database
 ---
 
 Reading and writing about systems.
