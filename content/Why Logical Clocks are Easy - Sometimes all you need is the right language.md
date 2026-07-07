@@ -11,7 +11,7 @@ date: 2026-07-07
 
 # Summary
 
-* Happened-Before = **Potential** causality
-* Causal Histories allow us to determine whether two events have the happened-before relation using **set inclusion**. Or it is a causality tracking mechanism.
-* Vector clocks and version vectors are simply **optimized representations of causal histories**.
-* We can select what events need to be tracked e.g. object update event.
+- The **happened-before** relation represents **potential** causality.
+- **Causal histories** serve as a causality-tracking mechanism, allowing us to determine whether two events have a happened-before relation using **set inclusion**.
+- **Vector clocks** and **version vectors** are simply optimized representations of causal histories.
+- We can selectively choose which events need to be tracked (e.g., an object update event).
