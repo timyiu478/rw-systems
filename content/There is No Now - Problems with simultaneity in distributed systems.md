@@ -5,7 +5,7 @@ tags:
   - Consensus
 reference: https://queue.acm.org/detail.cfm?id=2745385
 title: There is No Now - Problems with simultaneity in distributed systems
-draft: true
+draft: false
 description: Design for Failure, Not Perfection; Causality over Chronology
 date: 2026-07-09
 ---
