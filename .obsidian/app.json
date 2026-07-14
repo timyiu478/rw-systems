@@ -1,9 +1,3 @@
 {
-  "useMarkdownLinks": false,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "content",
-  "attachmentFolderPath": "quartz/static/",
-  "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true,
-  "newLinkFormat": "shortest"
+  "alwaysUpdateLinks": true
 }

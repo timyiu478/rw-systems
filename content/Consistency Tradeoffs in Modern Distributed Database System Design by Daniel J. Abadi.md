@@ -34,7 +34,8 @@ The research article argues that when designing replicated data systems (especia
 
 ![[static/pacelc_data_replication_implementations.png]]
 Noted that (2)(b)(ii) **does not tolerate network partition**. If the master node becomes inside the minority partition, the system by default makes the data item unavailable for updates.
-	* Real system example: 
+
+* Real system example: 
 		* PNUTS: a **PC/EL** system
 			* PC does not indicate the system is fully consistent. It means the system does not **reduce** consistency beyond its **baseline** consistency during network partition.
 

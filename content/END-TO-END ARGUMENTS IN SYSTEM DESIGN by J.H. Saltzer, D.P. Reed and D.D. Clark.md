@@ -7,6 +7,7 @@ reference: obsidian://open?vault=systems&file=papers%2Fendtoend.pdf
 title: END-TO-END ARGUMENTS IN SYSTEM DESIGN by J.H. Saltzer, D.P. Reed and D.D. Clark
 draft: false
 description: what network functions should be assigned to the endpoints
+date: 2026-02-03
 ---
 
 ## Takeaways

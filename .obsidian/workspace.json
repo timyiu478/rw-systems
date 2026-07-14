@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b6ae245f291079",
+        "id": "940fcd5835dec22c",
         "type": "tabs",
         "children": [
           {
-            "id": "d8851c77616ce82c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "papers/darpa.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "darpa"
-            }
-          },
-          {
-            "id": "1bc9633b82df0172",
+            "id": "530f97b49a606670",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
+                "file": "content/Multiversion Concurrency Control -Theory  and Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Replicated Data Consistency Explained Through Baseball by Doug Terry"
+              "title": "Multiversion Concurrency Control -Theory  and Algorithms"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wang",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,6 +150,20 @@
               "icon": "lucide-list",
               "title": "Outline of What good are models and what models are good"
             }
+          },
+          {
+            "id": "ccab284e62d374dd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
@@ -180,56 +181,56 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "zk-prefixer:Create new unique note": false,
-      "quartz-syncer:Quartz Syncer publication center": false
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "1bc9633b82df0172",
+  "active": "530f97b49a606670",
   "lastOpenFiles": [
-    "quartz/static/out_of_order.png",
-    "quartz/static/out_of_order_read.png",
-    "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
-    "content/Ethernet - Distributed Packet Switching for Local Computer Networks by Robert M. Metcalfe and David R. Boggs.md",
-    "papers/darpa.pdf",
-    "content/Kafka - A distributed messaging system for log processing.md",
-    "quartz/static/kafka_figures.png",
-    "papers/ConsistencyAndBaseballReport.pdf",
-    "quartz/static/zero_copy.png",
-    "papers/EthernetPaper.pdf",
-    "wrangler.jsonc~",
-    "wrangler.jsonc",
-    "templates/{{ title }}.md",
-    "papers/Kafka.pdf",
-    "content/Virtual Memory.md",
-    "content/On System Design.md",
-    "content/index.md",
+    "2026-07-11.md",
+    "content/Multiversion Concurrency Control -Theory  and Algorithms.md",
+    "books/making_sense_of_stream_processing.pdf",
+    "public/notes.base",
+    "public/Replicated-Data-Consistency-Explained-Through-Baseball-by-Doug-Terry-og-image.webp",
+    "public/Kafka---A-distributed-messaging-system-for-log-processing-og-image.webp",
+    "public/On-System-Design-og-image.webp",
+    "public/Lessons-from-Giant-Scale-Services-og-image.webp",
     "public/index-og-image.webp",
-    "public/What-good-are-models-and-what-models-are-good-og-image.webp",
-    "public/Virtual-Memory-og-image.webp",
-    "public/Unix-Time-Sharing-System-og-image.webp",
-    "public/The-tail-at-scale-og-image.webp",
-    "public/postscript.js",
-    "public/prescript.js",
-    "public/index.css",
-    "public/tags/index.html",
-    "public/static/virtual_memory_mmu.png",
-    "RW Systems.md",
+    "public/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark-og-image.webp",
+    "public/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi-og-image.webp",
+    "content/Chain Replication for Supporting High Throughput and Availability.md",
+    "content/Consistency Tradeoffs in Modern Distributed Database System Design by Daniel J. Abadi.md",
+    "content/On-demand Container Loading in AWS Lambda.md",
+    "SEDA - An Architecture for Well-Conditioned,Scalable Internet Services.md",
+    "content/Replicated Data Consistency Explained Through Baseball by Doug Terry.md",
+    "content/On System Design.md",
+    "content/Untitled 1.md",
+    "content/notes.base",
+    "public/static/chain_replication_overview.png",
+    "public/static/consistency_guarentees_baseball_example.png",
     "README.md",
-    "content/Unix Time Sharing System.md",
-    "content/The tail at scale.md",
-    "content/What good are models and what models are good.md",
-    "node_modules/mdast-util-mdx-expression/readme.md",
-    "node_modules/character-entities-legacy/readme.md",
-    "node_modules/@esbuild/darwin-x64/README.md",
-    "node_modules/get-tsconfig/README.md",
-    "node_modules/unicorn-magic/readme.md",
-    "node_modules/mime-db/README.md",
-    "node_modules/mime-db/HISTORY.md",
-    "node_modules/buffer/README.md",
-    "node_modules/buffer/AUTHORS.md",
-    "node_modules/source-map-js/README.md",
-    "node_modules/internmap/README.md",
-    "node_modules/lightningcss/README.md",
-    "node_modules/glob-parent/README.md"
+    "content/There is No Now - Problems with simultaneity in distributed systems.md",
+    "content/Are You Sure You Want to Use MMAP in Your Database Management System?.md",
+    "content/END-TO-END ARGUMENTS IN SYSTEM DESIGN by J.H. Saltzer, D.P. Reed and D.D. Clark.md",
+    "content/Data Management for Internet-Scale Single Sign-On.md",
+    "content/Ethernet - Distributed Packet Switching for Local Computer Networks by Robert M. Metcalfe and David R. Boggs.md",
+    "content/Google SRE - Building Secure and Reliable Systems.md",
+    "content/Granularity of Locking and Degrees of Consistency in a Shared Data Base.md",
+    "content/Kafka - A distributed messaging system for log processing.md",
+    "content/Lessons from Giant-Scale Services.md",
+    "content/kvm  - the Linux Virtual Machine Monitor.md",
+    "content/The Design Philosophy of the DARPA Internet Protocols by David D. Clark.md",
+    "content/Why Logical Clocks are Easy - Sometimes all you need is the right language.md",
+    "articles/SimonsSlice.pdf",
+    "content/Large-scale Incremental Processing Using Distributed Transactions and Notifications.md",
+    "papers/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+    "articles/the tail at scale.pdf",
+    "content/Eventual Consistency - Revisited. All Things Distributed (Blog).md",
+    "content/A Critique of ANSI SQL Isolation Levels.md",
+    "content/2026-05-29.md",
+    "papers/ols2007v1-pages-225-230.pdf",
+    "papers/perl.pdf",
+    "papers/p225-chandra.pdf",
+    "papers/JamesRH_Lisa.pdf",
+    "quartz/static/akamai_delivery_network_figures.png"
   ]
 }
