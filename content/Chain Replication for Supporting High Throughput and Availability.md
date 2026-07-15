@@ -10,6 +10,7 @@ date: 2026-07-11
 ---
 ## System Overview
 
+
 ![[static/chain_replication_overview.png]]
 
 ---

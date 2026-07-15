@@ -27,8 +27,10 @@ date: 2026-07-11
 	2. but may not have the same reads.
 2. Two MV logs are equivalent if they have the same reads-from relationships. (section 3.2)
 	1. Two logs have the same read operation $r_j[x_i]$
-3. The only pattern of conflict operations: $w_i[x_i]$ and $r_j[x_i]$. $w_i[x_i] < r_j[x_i]$
+3. The **only pattern of conflict operations**: $w_i[x_i]$ and $r_j[x_i]$. $w_i[x_i] < r_j[x_i]$
 	1. $w_i[x_i] > r_j[x_i]$ is impossible because $T_j$ only read the version of $x$ until it has been produced.
 	2. $w_i[x_i] < w_j[x_j]$ or  $w_i[x_i] > w_j[x_j]$ are impossible because they produce different versions.
 4. In the serialization graph of a MV log $L$, the edge of $T_i$ to $T_j$ is present iff some $x$, $r_j[x_i]$ is an operation in $L$. (section 3.2)
-	
+5. A serial MV log is **one-copy** serial (or 1-serial) if $T_j$ reads-from $T_i$ then $i=j$ or $T_j$ is the last transaction preceding $T_j$ that write any version of $x$. (section 3.3)
+6. A one-copy serializable log is equivalent to a 1-serial log.
+7. 

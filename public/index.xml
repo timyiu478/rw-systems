@@ -1,46 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>RW Systems</title>
+      <link>https://rw-systems.ctom3560.workers.dev</link>
+      <description>Last 10 notes on RW Systems</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Chain Replication for Supporting High Throughput and Availability</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Chain-Replication-for-Supporting-High-Throughput-and-Availability</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Chain-Replication-for-Supporting-High-Throughput-and-Availability</guid>
+    <description><![CDATA[ System Overview Details Chain Replication Properties Pros: Read operation involves 1 server - tail server Client RPCs are split between head and tail. ]]></description>
+    <pubDate>Fri, 10 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Multiversion Concurrency Control -Theory  and Algorithms</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Multiversion-Concurrency-Control--Theory--and-Algorithms</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Multiversion-Concurrency-Control--Theory--and-Algorithms</guid>
+    <description><![CDATA[ Basic Serializability Theory What is serializability theory? It tells the precise condition under which execution is correct. ]]></description>
+    <pubDate>Fri, 10 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>There is No Now - Problems with simultaneity in distributed systems</title>
+    <link>https://rw-systems.ctom3560.workers.dev/There-is-No-Now---Problems-with-simultaneity-in-distributed-systems</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/There-is-No-Now---Problems-with-simultaneity-in-distributed-systems</guid>
+    <description><![CDATA[ Design for Failure, Not Perfection; Causality over Chronology ]]></description>
+    <pubDate>Wed, 08 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Why Logical Clocks are Easy - Sometimes all you need is the right language</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Why-Logical-Clocks-are-Easy---Sometimes-all-you-need-is-the-right-language</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Why-Logical-Clocks-are-Easy---Sometimes-all-you-need-is-the-right-language</guid>
+    <description><![CDATA[ Vector clock is the encoded form of causal history ]]></description>
+    <pubDate>Mon, 06 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>R/W Systems</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
+    <link>https://rw-systems.ctom3560.workers.dev/</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/</guid>
     <description><![CDATA[ Reading and writing about systems. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 10:27:20 GMT</pubDate>
+    <pubDate>Mon, 09 Feb 2026 10:04:35 GMT</pubDate>
   </item><item>
-    <title>On System Design</title>
-    <link>https://quartz.jzhao.xyz/On-System-Design</link>
-    <guid>https://quartz.jzhao.xyz/On-System-Design</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 30 Jan 2026 09:38:07 GMT</pubDate>
+    <title>The Akamai Network - A Platform for High-Performance  Internet Applications</title>
+    <link>https://rw-systems.ctom3560.workers.dev/The-Akamai-Network---A-Platform-for-High-Performance--Internet-Applications</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/The-Akamai-Network---A-Platform-for-High-Performance--Internet-Applications</guid>
+    <description><![CDATA[ How does Akamai design a delivery network to overcome the internet inherent limitations ]]></description>
+    <pubDate>Sun, 08 Feb 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>The tail at scale</title>
-    <link>https://quartz.jzhao.xyz/The-tail-at-scale</link>
-    <guid>https://quartz.jzhao.xyz/The-tail-at-scale</guid>
-    <description><![CDATA[ A research article that explains why latency variability exists and how to reduce/mock latency variability using the existing capacity for fault-tolerant ]]></description>
-    <pubDate>Fri, 30 Jan 2026 09:38:07 GMT</pubDate>
+    <title>Building a Replicated Logging System with Apache Kafka</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Building-a-Replicated-Logging-System-with-Apache-Kafka</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Building-a-Replicated-Logging-System-with-Apache-Kafka</guid>
+    <description><![CDATA[ How does Kafka replicate its broker log, and why ]]></description>
+    <pubDate>Fri, 06 Feb 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Unix Time Sharing System</title>
-    <link>https://quartz.jzhao.xyz/Unix-Time-Sharing-System</link>
-    <guid>https://quartz.jzhao.xyz/Unix-Time-Sharing-System</guid>
-    <description><![CDATA[ Takeaways Administrative delegation is one of the differences between Unix layering and DNS layering The implementation of the mount system call Q&amp;A Q. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 09:38:07 GMT</pubDate>
+    <title>Replicated Data Consistency Explained Through Baseball by Doug Terry</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Replicated-Data-Consistency-Explained-Through-Baseball-by-Doug-Terry</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Replicated-Data-Consistency-Explained-Through-Baseball-by-Doug-Terry</guid>
+    <description><![CDATA[ The different consistency guarantees are useful and understand how the data is being used is useful for choosing the desired consistency guarantees ]]></description>
+    <pubDate>Wed, 04 Feb 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Virtual Memory</title>
-    <link>https://quartz.jzhao.xyz/Virtual-Memory</link>
-    <guid>https://quartz.jzhao.xyz/Virtual-Memory</guid>
-    <description><![CDATA[  Q. Why MMU(Memory Management Unit)? Normal memory access is not a kernel call. Without MMU, we cannot enforce memory protection. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 09:38:07 GMT</pubDate>
+    <title>Consistency Tradeoffs in Modern Distributed Database System Design by Daniel J. Abadi</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi</guid>
+    <description><![CDATA[ The tradeoff between latency and consistency in distributed database system during normal operation ]]></description>
+    <pubDate>Mon, 02 Feb 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>What good are models and what models are good</title>
-    <link>https://quartz.jzhao.xyz/What-good-are-models-and-what-models-are-good</link>
-    <guid>https://quartz.jzhao.xyz/What-good-are-models-and-what-models-are-good</guid>
-    <description><![CDATA[ Takeaways To postulate a system is synchronous or asynchronous, we need to consider both processing speed and message delivery channel. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 09:38:07 GMT</pubDate>
+    <title>END-TO-END ARGUMENTS IN SYSTEM DESIGN by J.H. Saltzer, D.P. Reed and D.D. Clark</title>
+    <link>https://rw-systems.ctom3560.workers.dev/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark</guid>
+    <description><![CDATA[ what network functions should be assigned to the endpoints ]]></description>
+    <pubDate>Mon, 02 Feb 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

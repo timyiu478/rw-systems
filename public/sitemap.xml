@@ -1,19 +1,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/On-System-Design</loc>
-    <lastmod>2026-01-30T09:38:07.000Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/Building-a-Replicated-Logging-System-with-Apache-Kafka</loc>
+    <lastmod>2026-02-06T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/The-tail-at-scale</loc>
-    <lastmod>2026-01-30T09:38:07.000Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/Chain-Replication-for-Supporting-High-Throughput-and-Availability</loc>
+    <lastmod>2026-07-10T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Unix-Time-Sharing-System</loc>
-    <lastmod>2026-01-30T09:38:07.000Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi</loc>
+    <lastmod>2026-02-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Virtual-Memory</loc>
-    <lastmod>2026-01-30T09:38:07.000Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark</loc>
+    <lastmod>2026-02-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/What-good-are-models-and-what-models-are-good</loc>
-    <lastmod>2026-01-30T09:38:07.000Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/Kafka---A-distributed-messaging-system-for-log-processing</loc>
+    <lastmod>2026-01-29T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-01-30T10:27:20.924Z</lastmod>
+    <loc>https://rw-systems.ctom3560.workers.dev/Lessons-from-Giant-Scale-Services</loc>
+    <lastmod>2026-02-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Multiversion-Concurrency-Control--Theory--and-Algorithms</loc>
+    <lastmod>2026-07-10T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Replicated-Data-Consistency-Explained-Through-Baseball-by-Doug-Terry</loc>
+    <lastmod>2026-02-04T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/The-Akamai-Network---A-Platform-for-High-Performance--Internet-Applications</loc>
+    <lastmod>2026-02-08T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/The-tail-at-scale</loc>
+    <lastmod>2026-01-29T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/There-is-No-Now---Problems-with-simultaneity-in-distributed-systems</loc>
+    <lastmod>2026-07-08T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Unix-Time-Sharing-System</loc>
+    <lastmod>2026-01-30T10:30:11.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Virtual-Memory</loc>
+    <lastmod>2026-01-29T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/What-good-are-models-and-what-models-are-good</loc>
+    <lastmod>2026-01-29T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Why-Logical-Clocks-are-Easy---Sometimes-all-you-need-is-the-right-language</loc>
+    <lastmod>2026-07-06T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/</loc>
+    <lastmod>2026-02-09T10:04:35.000Z</lastmod>
   </url></urlset>
