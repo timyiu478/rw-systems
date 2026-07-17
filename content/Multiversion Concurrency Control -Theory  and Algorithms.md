@@ -32,5 +32,13 @@ date: 2026-07-11
 	2. $w_i[x_i] < w_j[x_j]$ or  $w_i[x_i] > w_j[x_j]$ are impossible because they produce different versions.
 4. In the serialization graph of a MV log $L$, the edge of $T_i$ to $T_j$ is present iff some $x$, $r_j[x_i]$ is an operation in $L$. (section 3.2)
 5. A serial MV log is **one-copy** serial (or 1-serial) if $T_j$ reads-from $T_i$ then $i=j$ or $T_j$ is the last transaction preceding $T_j$ that write any version of $x$. (section 3.3)
-6. A one-copy serializable log is equivalent to a 1-serial log.
-7. 
+6. A one-copy serializable (1-SR) log is equivalent to a 1-serial log, and it is the correctness criterion for multiversion concurrency control.
+7. **1-SR Equivalence Theorem.** Let $L$ is an MV log over $T$. $L$ is equivalent to a serial, non-MV log iff $L$ is 1-SR.
+8. **1 Serializability Theorem.** An MV log $L$ is l-SR iff there exists a version order $<<$ such that $MVSG(L, <<)$ is acyclic. (section 3.4)
+
+
+## Multiversion Timestamping
+
+## Multiversion Locking
+
+## Multiversion Mixed Method

@@ -4,13 +4,13 @@ tags:
   - distributed-transaction
 reference: obsidian://open?vault=systems&file=papers%2Flarge-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf
 title: Large-scale Incremental Processing Using Distributed Transactions and Notifications
-draft: true
-description:
+draft: false
+description: This paper introduces Percolator, an incremental processing system that utilizes distributed transactions and notifications to efficiently update a web search index while strictly maintaining data invariants.
 date: 2026-07-05
 ---
 ## One-line Summary
 
-This paper describes a new incremental system: percolator for preparing web pages for inclusion on the web search index efficiently while maintaining the invarients of the index using distributed transaction and notification.
+This paper introduces Percolator, an incremental processing system that utilizes distributed transactions and notifications to efficiently update a web search index while strictly maintaining data invariants.
 
 ---
 
@@ -22,11 +22,13 @@ The search Index produced MapReduce requires reprocessing the entire web discard
 
 **Strengths:**
 
-* lazy approach to cleaning up locks left behind by transactions running on failed machines??
+* lazy approach to cleaning up locks left behind by transactions running on failed machines
 
 **Weaknesses:**
 
-* Does not provide serializability; It provides snapshot isolation, which is subject to [write skew](https://en.wikipedia.org/wiki/Snapshot_isolation).
+* Does not provide serializability; It provides snapshot isolation, which is subject to [write skew](https://en.wikipedia.org/wiki/Snapshot_isolation)
+* Rely on the timestamp oracle to provide the strictly increasing timestamps.
+* Rely on Bigtable features: atomic row transaction, timestamp-based versioned storage
 
 
 ---
@@ -37,6 +39,12 @@ The search Index produced MapReduce requires reprocessing the entire web discard
 * Coordinator: client
 * Once the primary's write is visible, the transaction must be committed
 * How to deal with client failure
+	* primary lock
+		* the location of the primary is written into the locks at all other cells (figure 6's line 38)
+	* crash before commit
+		* **lazy** clean up by live clients
+	* crash after commit (primary location lock has been replaced by write)
+		* roll forward by live clients
 
 
 ---
@@ -54,11 +62,6 @@ Incremental processing is about **continuous refinement** of a dataset. It is *N
 	* if the same content is crawled under multiple URLs, only the URL with the highest PageRank appears in the index
 	* links to a duplicate of a page should be forwarded to the highest PageRank duplicate if necessary
 
-#### Q. Why MapReduce requires reprocessing from scratch?
-
-* Many computations (like PageRank, duplicate detection, or clustering) depend on relationships across _all_ documents. A single new page can affect scores everywhere, so partial updates aren’t straightforward.
-* It is a batch system; no native incremental operators.
-
 #### Q. What applications are not suitable for percolator?
 
 * applications that require strong consistency
@@ -72,16 +75,23 @@ Incremental processing is about **continuous refinement** of a dataset. It is *N
 
 write-write conflicts: if transactions A and B, running concurrently, write to the same cell, at most one will commit.
 
-How to against: if the transaction sees another write record after its start timestamp, it aborts.
+How to against: if the transaction sees another write record after its start timestamp, it aborts.
 
 #### Q. Why Get() operation requires reading locks in addition to data?
 
+It is used to check if another transaction is actively writing to that cell by reading the locks that were created **before** the reader started. So that the Get() can guarantee to return all committed writes before the transaction's start timestamp.
 
 #### Q. Can the deadlock happen in the transaction protocol?
 
+No, because **only readers wait for writers**.
+
+- **Writers** never wait for anyone (they just abort and retry).
+- **Readers** only wait for uncommitted writers.
+
 #### Q. In figure 6, why `T.Write` and `T.Erase` for primary, and `bigtable:Write` and `bigtable:Erase` for secondaries?
 
-
+- **`T.Write`:** Used on the Primary row inside a strict Bigtable single-row transaction.
+- **`bigtable::Write`:** A fast, raw API call used on the Secondary rows because the transaction is already officially committed, and **any failures here can be safely cleaned up later by other readers.**
 
 
 
