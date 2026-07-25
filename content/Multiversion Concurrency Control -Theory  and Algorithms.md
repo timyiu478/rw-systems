@@ -42,14 +42,17 @@ date: 2026-07-11
 8. **1 Serializability Theorem.** An MV log $L$ is l-SR iff there exists a version order $<<$ such that $MVSG(L, <<)$ is acyclic. (section 3.4)
 
 
-## Multiversion Timestamping (section 4)
+## Multiversion Timestamping
 
 1. Each transaction has its own **unique** timestamp.
 2. Operations are processed in FIFO. But the translation from data item operations to version operations makes it appear as if operations were processed in **timestamp order**.
 	1. $r_i[x] -> r_i[x_k]$ where $x_k$ is the version of x with largest timestamp $< TS(i)$.
 	2. rejects $w_i[x]$ If it would invalidate $r_i[x_k]$ (DBS has already processed $r_j[x_k]$ such that $TS(k) < TS(i) < TS(j)$). Otherwise, $w_i[x] -> w_i[x_i]$.
 
-
 ## Multiversion Locking
 
+TODO
+
 ## Multiversion Mixed Method
+
+TODO
