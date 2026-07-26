@@ -5,7 +5,7 @@ tags:
   - concurrency
 reference: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf
 title: A Critique of ANSI SQL Isolation Levels
-draft: true
+draft: false
 description: " This paper defines the isolation level as the set of histories"
 date: 2026-07-24
 ---
