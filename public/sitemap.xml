@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/A-Critique-of-ANSI-SQL-Isolation-Levels</loc>
+    <lastmod>2026-07-23T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://rw-systems.ctom3560.workers.dev/Building-a-Replicated-Logging-System-with-Apache-Kafka</loc>
     <lastmod>2026-02-06T16:00:00.000Z</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>https://rw-systems.ctom3560.workers.dev/Kafka---A-distributed-messaging-system-for-log-processing</loc>
     <lastmod>2026-01-29T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://rw-systems.ctom3560.workers.dev/Large-scale-Incremental-Processing-Using-Distributed-Transactions-and-Notifications</loc>
+    <lastmod>2026-07-04T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://rw-systems.ctom3560.workers.dev/Lessons-from-Giant-Scale-Services</loc>
     <lastmod>2026-02-02T16:00:00.000Z</lastmod>

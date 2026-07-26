@@ -18,13 +18,13 @@ The ANSI SQL-92 defines four isolation levels by **phenomena**. However, the ori
 * **Well-formed**: lock on (tuples/predicates) before reading/writing record
 * **Long duration**: hold lock until the transaction commits/aborts
 
-![[degree of consistency and isolation levels.png]]
+![[static/degree of consistency and isolation levels.png]]
 
 ## Hierarchy of Isolation Levels
 
 Isolation level L1 is weaker than isolation level L2, denoted L1 << L2, if all non-serializable histories that obey the criteria of L2 also obey L1 and there is at least one non-serializable history that can occur in L1 but not in L2.
 
-![[hierarchy of isolation levels.png]]
+![[static/hierarchy of isolation levels.png]]
 
 **Histories:**
 

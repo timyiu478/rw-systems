@@ -6,6 +6,12 @@
       <description>Last 10 notes on RW Systems</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>A Critique of ANSI SQL Isolation Levels</title>
+    <link>https://rw-systems.ctom3560.workers.dev/A-Critique-of-ANSI-SQL-Isolation-Levels</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/A-Critique-of-ANSI-SQL-Isolation-Levels</guid>
+    <description><![CDATA[  This paper defines the isolation level as the set of histories ]]></description>
+    <pubDate>Thu, 23 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>Chain Replication for Supporting High Throughput and Availability</title>
     <link>https://rw-systems.ctom3560.workers.dev/Chain-Replication-for-Supporting-High-Throughput-and-Availability</link>
     <guid>https://rw-systems.ctom3560.workers.dev/Chain-Replication-for-Supporting-High-Throughput-and-Availability</guid>
@@ -15,7 +21,7 @@
     <title>Multiversion Concurrency Control -Theory  and Algorithms</title>
     <link>https://rw-systems.ctom3560.workers.dev/Multiversion-Concurrency-Control--Theory--and-Algorithms</link>
     <guid>https://rw-systems.ctom3560.workers.dev/Multiversion-Concurrency-Control--Theory--and-Algorithms</guid>
-    <description><![CDATA[ Basic Serializability Theory What is serializability theory? It tells the precise condition under which execution is correct. ]]></description>
+    <description><![CDATA[ Multiversion DB Each write on a data item x, say, produces a new copy (or version) of x. ]]></description>
     <pubDate>Fri, 10 Jul 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>There is No Now - Problems with simultaneity in distributed systems</title>
@@ -29,6 +35,12 @@
     <guid>https://rw-systems.ctom3560.workers.dev/Why-Logical-Clocks-are-Easy---Sometimes-all-you-need-is-the-right-language</guid>
     <description><![CDATA[ Vector clock is the encoded form of causal history ]]></description>
     <pubDate>Mon, 06 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Large-scale Incremental Processing Using Distributed Transactions and Notifications</title>
+    <link>https://rw-systems.ctom3560.workers.dev/Large-scale-Incremental-Processing-Using-Distributed-Transactions-and-Notifications</link>
+    <guid>https://rw-systems.ctom3560.workers.dev/Large-scale-Incremental-Processing-Using-Distributed-Transactions-and-Notifications</guid>
+    <description><![CDATA[ This paper introduces Percolator, an incremental processing system that utilizes distributed transactions and notifications to efficiently update a web search index while strictly maintaining data invariants. ]]></description>
+    <pubDate>Sat, 04 Jul 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>R/W Systems</title>
     <link>https://rw-systems.ctom3560.workers.dev/</link>
@@ -53,18 +65,6 @@
     <guid>https://rw-systems.ctom3560.workers.dev/Replicated-Data-Consistency-Explained-Through-Baseball-by-Doug-Terry</guid>
     <description><![CDATA[ The different consistency guarantees are useful and understand how the data is being used is useful for choosing the desired consistency guarantees ]]></description>
     <pubDate>Wed, 04 Feb 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Consistency Tradeoffs in Modern Distributed Database System Design by Daniel J. Abadi</title>
-    <link>https://rw-systems.ctom3560.workers.dev/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi</link>
-    <guid>https://rw-systems.ctom3560.workers.dev/Consistency-Tradeoffs-in-Modern-Distributed-Database-System-Design-by-Daniel-J.-Abadi</guid>
-    <description><![CDATA[ The tradeoff between latency and consistency in distributed database system during normal operation ]]></description>
-    <pubDate>Mon, 02 Feb 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>END-TO-END ARGUMENTS IN SYSTEM DESIGN by J.H. Saltzer, D.P. Reed and D.D. Clark</title>
-    <link>https://rw-systems.ctom3560.workers.dev/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark</link>
-    <guid>https://rw-systems.ctom3560.workers.dev/END-TO-END-ARGUMENTS-IN-SYSTEM-DESIGN-by-J.H.-Saltzer,-D.P.-Reed-and-D.D.-Clark</guid>
-    <description><![CDATA[ what network functions should be assigned to the endpoints ]]></description>
-    <pubDate>Mon, 02 Feb 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
