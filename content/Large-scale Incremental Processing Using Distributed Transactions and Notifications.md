@@ -93,9 +93,9 @@ No, because **only readers wait for writers**.
 - **`T.Write`:** Used on the Primary row inside a strict Bigtable single-row transaction.
 - **`bigtable::Write`:** A fast, raw API call used on the Secondary rows because the transaction is already officially committed, and **any failures here can be safely cleaned up later by other readers.**
 
+---
+## Educational Implementation
 
-
-
-
+https://github.com/timyiu478/percolator
 
 

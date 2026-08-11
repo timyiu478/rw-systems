@@ -1,4 +1,6 @@
 .obsidian/plugins/
-public/
 node_modules/
 quartz/.quartz-cache
+public/tags/
+public/*.html
+public/*.webp
