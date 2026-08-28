@@ -14,6 +14,15 @@ date: 2026-07-11
 ![[static/chain_replication_overview.png]]
 
 ---
+
+## Comments
+
+* **Fault Tolerance:** 
+	* The data plane (the chain -  $t$ nodes) can tolerate $t-1$ node failures.
+	* The control plane (the configuration service - $m$ nodes) can tolerate $m//2$ node failures if the service uses a consensus protocol like Paxos.
+	* The total system tolerance is bounded by the weakest link: $\min(t - 1, \, m // 2)$.
+
+---
 ## Details
 
 #### Chain Replication Properties
@@ -63,4 +72,8 @@ C2:                 | read A is 100 |
 5. The Propagation Delay: While $M$ is preparing to forward the update to the Tail ($T$), or while the message is in flight on the network, a slice of wall-clock time passes. $T$ still holds the old value ($A = 100$).
 6. The Read Request: Client 2 ($C2$) issues a read request for $A$.  By design in Chain Replication, all read requests are served by the Tail ($T$).
 7. The Stale Return:  Because the update has not yet reached $T$, $T$ looks at its local storage and replies to $C2$ with $A = 100$.
+
+#### Q. What are the network partition cases in this protocol?
+
+
 
